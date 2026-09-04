@@ -1,6 +1,6 @@
 # USDCHF 1d OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-15_721_rows-blue)](https://getdata.finance/datasets/usdchf) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdchf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-7_703_rows-blue)](https://getdata.finance/datasets/usdchf) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/usdchf)
 
 ### -> [**Download the full USDCHF dataset on getdata.finance**](https://getdata.finance/datasets/usdchf)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 1d OHLCV** for **US Dollar / Swiss Franc** (Forex)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdchf) · **15,721** `1d` rows in the full archive
+- **Free evaluation sample** on GitHub (`1d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/usdchf) · **7,703** `1d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1d` sample updated in sync
 
-> **Sample on GitHub** · `USDCHF_1d.csv` (42 rows, `2026-07-10` -> `2026-09-01`, 3.01 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdchf)** — **15,721** `1d` rows (full `1m`: 9,169,329), **11 timeframes**, `1971-01-04` -> `2026-09-01`.
+> **Sample on GitHub** · `USDCHF_1d.csv` (732 rows, `2024-04-28` -> `2026-09-02`, 82.11 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/usdchf)** — **7,703** `1d` rows (full `1m`: 9,147,305), **11 timeframes**, `2001-11-28` -> `2026-09-02`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | US Dollar / Swiss Franc · Forex | US Dollar / Swiss Franc · Forex |
 | Timeframes | `1d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1d rows | 42 | **15,721** |
-| Size | 3.01 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdchf) |
-| Period | `2026-07-10` -> `2026-09-01` | `1971-01-04` -> `2026-09-01` |
+| 1d rows | 732 | **7,703** |
+| Size | 82.11 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/usdchf) |
+| Period | `2024-04-28` -> `2026-09-02` | `2001-11-28` -> `2026-09-02` |
 | File | `USDCHF_1d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/usdchf) |
 | Coverage report | — | [USDCHF coverage](https://getdata.finance/coverage/usdchf) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`USDCHF_1d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-10T00:00:00+00:00 | 0.8076 | 0.81063 | 0.80471 | 0.80927 | 139460 |
-| 2026-07-12T00:00:00+00:00 | 0.8064 | 0.81495 | 0.8064 | 0.81475 | 183422 |
-| 2026-07-13T00:00:00+00:00 | 0.81475 | 0.81513 | 0.80602 | 0.80907 | 212892 |
-| 2026-07-14T00:00:00+00:00 | 0.80907 | 0.81145 | 0.80337 | 0.80469 | 161077 |
-| 2026-07-15T00:00:00+00:00 | 0.80469 | 0.80969 | 0.80383 | 0.80864 | 282492 |
+| 2024-04-28T00:00:00+00:00 | 0.91395 | 0.91409 | 0.90795 | 0.90924 | 5591.71236 |
+| 2024-04-29T00:00:00+00:00 | 0.90924 | 0.91083 | 0.9043 | 0.90618 | 180975.44888 |
+| 2024-04-30T00:00:00+00:00 | 0.90618 | 0.91549 | 0.90584 | 0.9154 | 171734.72751 |
+| 2024-05-01T00:00:00+00:00 | 0.9154 | 0.91819 | 0.91022 | 0.91187 | 181295.29908 |
+| 2024-05-02T00:00:00+00:00 | 0.91187 | 0.91282 | 0.90495 | 0.90953 | 172917 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T00:00:00+00:00 | 0.80257 | 0.80257 | 0.80125 | 0.8024 | 14627 |
-| 2026-08-27T00:00:00+00:00 | 0.8024 | 0.8081 | 0.80065 | 0.80737 | 151321 |
-| 2026-08-30T00:00:00+00:00 | 0.80803 | 0.80984 | 0.80684 | 0.80833 | 133229 |
-| 2026-08-31T00:00:00+00:00 | 0.80833 | 0.81247 | 0.80663 | 0.81156 | 147922 |
-| 2026-09-01T00:00:00+00:00 | 0.81156 | 0.8132 | 0.81069 | 0.813 | 14632 |
+| 2026-08-28T00:00:00+00:00 | 0.80382 | 0.80987 | 0.80255 | 0.80914 | 148021 |
+| 2026-08-30T00:00:00+00:00 | 0.80803 | 0.80984 | 0.80803 | 0.80883 | 4436 |
+| 2026-08-31T00:00:00+00:00 | 0.80883 | 0.80968 | 0.80663 | 0.8083 | 133218 |
+| 2026-09-01T00:00:00+00:00 | 0.8083 | 0.81247 | 0.80785 | 0.8119 | 144523 |
+| 2026-09-02T00:00:00+00:00 | 0.8119 | 0.8132 | 0.81179 | 0.813 | 11929 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDCHF** archive on **[getdata.finance](https://getdata.finance/datasets/usdchf)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **15,721** rows at `1d`, plus all other timeframes in the same ZIP.
+The complete **USDCHF** archive on **[getdata.finance](https://getdata.finance/datasets/usdchf)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **7,703** rows at `1d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full USDCHF dataset on getdata.finance](https://getdata.finance/datasets/usdchf)**
 
